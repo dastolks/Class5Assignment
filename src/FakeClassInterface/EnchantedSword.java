@@ -9,7 +9,7 @@ package FakeClassInterface;
  *
  * @author Alec
  */
-public abstract class EnchantedSword extends Sword{   
+public abstract class EnchantedSword implements Sword{   
     public abstract String getEnchantment();
     public abstract void SetEnchantment(String e);
     public abstract String getEnchantedBy();

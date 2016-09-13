@@ -9,7 +9,7 @@ package FakeClassInterface;
  *
  * @author Alec
  */
-public abstract class Sword {
+public interface Sword {
     public abstract int getLength();
     public abstract int getWeight();
     public abstract String getSkill();
