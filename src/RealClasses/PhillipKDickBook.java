@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author Alec
  */
-public class PhillipKDick extends SciFi{
+public class PhillipKDickBook extends SciFiBook{
     private Date release;
     private Date timePeriod;
     private String subGenre;
@@ -32,7 +32,7 @@ public class PhillipKDick extends SciFi{
 
     @Override
     public final String getTitle() {
-        return getDate(release);
+        return title;
     }
 
     @Override

@@ -9,7 +9,7 @@ package RealClasses;
  *
  * @author Alec
  */
-public abstract class SciFi implements Books{
-    public abstract String getTimePeriod();
-    public abstract String getSubGenre();
+public interface Book {
+    public abstract String getTitle();
+    public abstract String getAuthor();
 }
